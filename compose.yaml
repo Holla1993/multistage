@@ -1,6 +1,6 @@
 services:
   jenkins:
-    image: jenkins/jenkins
+    image: jenkins:2.60.2
     deploy:
       replicas: 10
       restart_policy:
