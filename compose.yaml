@@ -2,7 +2,7 @@ services:
   jenkins:
     image: jenkins:2.60.2
     deploy:
-      replicas: 10
+      replicas: 1
       restart_policy:
         condition: on-failure    
     ports:
